@@ -1,3 +1,5 @@
+package Calculator;
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -42,7 +44,7 @@ public class Main {
 //
 //
 //
-//        Calculator calc = new Calculator();
+//        Calculator.Calculator calc = new Calculator.Calculator();
 //
 //        System.out.println(calc.sum(3, 3));
 //
@@ -53,7 +55,7 @@ public class Main {
 ////        If not, print “Got to try some more”
 //
 //        String text = "FastTrack";
-//        LogicalOperations logicalOp = new LogicalOperations();
+//        Calculator.LogicalOperations logicalOp = new Calculator.LogicalOperations();
 //        System.out.println(logicalOp.verifyText(text));
 //
 //
@@ -72,7 +74,7 @@ public class Main {
 //        int[] array = op.getPopulatedArray(100);
 //        op.printArray(array);
 
-        List<Integer> myList = new ArrayList<Integer>();
+        ArrayList<Integer> myList = new ArrayList<Integer>();
         myList.add(1);
         myList.add(2);
         myList.add(3);
